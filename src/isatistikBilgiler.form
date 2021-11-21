@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_tittle" min="-2" pref="564" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="btn_ekle" min="-2" pref="164" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="lbl_msg1" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                              <Component id="lbl_msg2" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                              <Component id="lbl_msg3" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txt2" alignment="1" min="-2" pref="164" max="-2" attributes="0"/>
+                                      <Component id="txt3" alignment="1" min="-2" pref="164" max="-2" attributes="0"/>
+                                      <Component id="btn_sil" alignment="0" min="-2" pref="164" max="-2" attributes="0"/>
+                                      <Component id="txt1" alignment="1" min="-2" pref="164" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="168" max="-2" attributes="0"/>
+                                  <Component id="btn_ok" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="370" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btn_artor" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_medyan" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_mod" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_degisaralık" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_oms" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_varyans" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_std" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_dkat" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_ceyac" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_boxplot" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_dosya" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lbl_tittle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="163" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btn_sil" min="-2" pref="31" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txt1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="txt2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Component id="txt3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btn_ekle" min="-2" pref="31" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lbl_msg1" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="lbl_msg2" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lbl_msg3" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btn_artor" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="btn_medyan" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_mod" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_degisaralık" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_oms" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_varyans" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_std" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_dkat" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_ceyac" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_dosya" min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_ok" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_boxplot" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="120">
+                <Column editable="true" title="G&#xdc;NLER" type="java.lang.Double">
+                  <Data value="1.0"/>
+                  <Data value="2.0"/>
+                  <Data value="3.0"/>
+                  <Data value="4.0"/>
+                  <Data value="5.0"/>
+                  <Data value="6.0"/>
+                  <Data value="7.0"/>
+                  <Data value="8.0"/>
+                  <Data value="9.0"/>
+                  <Data value="10.0"/>
+                  <Data value="11.0"/>
+                  <Data value="12.0"/>
+                  <Data value="13.0"/>
+                  <Data value="14.0"/>
+                  <Data value="15.0"/>
+                  <Data value="16.0"/>
+                  <Data value="17.0"/>
+                  <Data value="18.0"/>
+                  <Data value="19.0"/>
+                  <Data value="20.0"/>
+                  <Data value="21.0"/>
+                  <Data value="22.0"/>
+                  <Data value="23.0"/>
+                  <Data value="24.0"/>
+                  <Data value="25.0"/>
+                  <Data value="26.0"/>
+                  <Data value="27.0"/>
+                  <Data value="28.0"/>
+                  <Data value="29.0"/>
+                  <Data value="30.0"/>
+                  <Data value="31.0"/>
+                  <Data value="32.0"/>
+                  <Data value="33.0"/>
+                  <Data value="34.0"/>
+                  <Data value="35.0"/>
+                  <Data value="36.0"/>
+                  <Data value="37.0"/>
+                  <Data value="38.0"/>
+                  <Data value="39.0"/>
+                  <Data value="40.0"/>
+                  <Data value="41.0"/>
+                  <Data value="42.0"/>
+                  <Data value="43.0"/>
+                  <Data value="44.0"/>
+                  <Data value="45.0"/>
+                  <Data value="46.0"/>
+                  <Data value="47.0"/>
+                  <Data value="48.0"/>
+                  <Data value="49.0"/>
+                  <Data value="50.0"/>
+                  <Data value="51.0"/>
+                  <Data value="52.0"/>
+                  <Data value="53.0"/>
+                  <Data value="54.0"/>
+                  <Data value="55.0"/>
+                  <Data value="56.0"/>
+                  <Data value="57.0"/>
+                  <Data value="58.0"/>
+                  <Data value="59.0"/>
+                  <Data value="60.0"/>
+                  <Data value="61.0"/>
+                  <Data value="62.0"/>
+                  <Data value="63.0"/>
+                  <Data value="64.0"/>
+                  <Data value="65.0"/>
+                  <Data value="66.0"/>
+                  <Data value="67.0"/>
+                  <Data value="68.0"/>
+                  <Data value="69.0"/>
+                  <Data value="70.0"/>
+                  <Data value="71.0"/>
+                  <Data value="72.0"/>
+                  <Data value="73.0"/>
+                  <Data value="74.0"/>
+                  <Data value="75.0"/>
+                  <Data value="76.0"/>
+                  <Data value="77.0"/>
+                  <Data value="78.0"/>
+                  <Data value="79.0"/>
+                  <Data value="80.0"/>
+                  <Data value="81.0"/>
+                  <Data value="82.0"/>
+                  <Data value="83.0"/>
+                  <Data value="84.0"/>
+                  <Data value="85.0"/>
+                  <Data value="86.0"/>
+                  <Data value="87.0"/>
+                  <Data value="88.0"/>
+                  <Data value="89.0"/>
+                  <Data value="90.0"/>
+                  <Data value="91.0"/>
+                  <Data value="92.0"/>
+                  <Data value="93.0"/>
+                  <Data value="94.0"/>
+                  <Data value="95.0"/>
+                  <Data value="96.0"/>
+                  <Data value="97.0"/>
+                  <Data value="98.0"/>
+                  <Data value="99.0"/>
+                  <Data value="100.0"/>
+                  <Data value="101.0"/>
+                  <Data value="102.0"/>
+                  <Data value="103.0"/>
+                  <Data value="104.0"/>
+                  <Data value="105.0"/>
+                  <Data value="106.0"/>
+                  <Data value="107.0"/>
+                  <Data value="108.0"/>
+                  <Data value="109.0"/>
+                  <Data value="110.0"/>
+                  <Data value="111.0"/>
+                  <Data value="112.0"/>
+                  <Data value="113.0"/>
+                  <Data value="114.0"/>
+                  <Data value="115.0"/>
+                  <Data value="116.0"/>
+                  <Data value="117.0"/>
+                  <Data value="118.0"/>
+                  <Data value="119.0"/>
+                  <Data value="120.0"/>
+                </Column>
+                <Column editable="true" title="Kyrgyzstan" type="java.lang.Double">
+                  <Data value="0.0"/>
+                  <Data value="335.0"/>
+                  <Data value="420.0"/>
+                  <Data value="440.0"/>
+                  <Data value="401.0"/>
+                  <Data value="621.0"/>
+                  <Data value="0.0"/>
+                  <Data value="295.0"/>
+                  <Data value="322.0"/>
+                  <Data value="379.0"/>
+                  <Data value="668.0"/>
+                  <Data value="0.0"/>
+                  <Data value="297.0"/>
+                  <Data value="318.0"/>
+                  <Data value="477.0"/>
+                  <Data value="0.0"/>
+                  <Data value="264.0"/>
+                  <Data value="264.0"/>
+                  <Data value="232.0"/>
+                  <Data value="343.0"/>
+                  <Data value="0.0"/>
+                  <Data value="175.0"/>
+                  <Data value="230.0"/>
+                  <Data value="186.0"/>
+                  <Data value="180.0"/>
+                  <Data value="157.0"/>
+                  <Data value="191.0"/>
+                  <Data value="162.0"/>
+                  <Data value="119.0"/>
+                  <Data value="189.0"/>
+                  <Data value="191.0"/>
+                  <Data value="122.0"/>
+                  <Data value="58.0"/>
+                  <Data value="174.0"/>
+                  <Data value="0.0"/>
+                  <Data value="124.0"/>
+                  <Data value="144.0"/>
+                  <Data value="170.0"/>
+                  <Data value="165.0"/>
+                  <Data value="147.0"/>
+                  <Data value="135.0"/>
+                  <Data value="107.0"/>
+                  <Data value="207.0"/>
+                  <Data value="0.0"/>
+                  <Data value="136.0"/>
+                  <Data value="263.0"/>
+                  <Data value="123.0"/>
+                  <Data value="69.0"/>
+                  <Data value="0.0"/>
+                  <Data value="252.0"/>
+                  <Data value="0.0"/>
+                  <Data value="155.0"/>
+                  <Data value="211.0"/>
+                  <Data value="0.0"/>
+                  <Data value="104.0"/>
+                  <Data value="168.0"/>
+                  <Data value="107.0"/>
+                  <Data value="128.0"/>
+                  <Data value="0.0"/>
+                  <Data value="74.0"/>
+                  <Data value="152.0"/>
+                  <Data value="59.0"/>
+                  <Data value="0.0"/>
+                  <Data value="58.0"/>
+                  <Data value="186.0"/>
+                  <Data value="88.0"/>
+                  <Data value="0.0"/>
+                  <Data value="72.0"/>
+                  <Data value="79.0"/>
+                  <Data value="42.0"/>
+                  <Data value="58.0"/>
+                  <Data value="82.0"/>
+                  <Data value="75.0"/>
+                  <Data value="70.0"/>
+                  <Data value="43.0"/>
+                  <Data value="34.0"/>
+                  <Data value="41.0"/>
+                  <Data value="48.0"/>
+                  <Data value="125.0"/>
+                  <Data value="0.0"/>
+                  <Data value="142.0"/>
+                  <Data value="0.0"/>
+                  <Data value="98.0"/>
+                  <Data value="0.0"/>
+                  <Data value="72.0"/>
+                  <Data value="24.0"/>
+                  <Data value="66.0"/>
+                  <Data value="51.0"/>
+                  <Data value="43.0"/>
+                  <Data value="66.0"/>
+                  <Data value="57.0"/>
+                  <Data value="48.0"/>
+                  <Data value="54.0"/>
+                  <Data value="0.0"/>
+                  <Data value="41.0"/>
+                  <Data value="55.0"/>
+                  <Data value="44.0"/>
+                  <Data value="33.0"/>
+                  <Data value="57.0"/>
+                  <Data value="0.0"/>
+                  <Data value="115.0"/>
+                  <Data value="63.0"/>
+                  <Data value="0.0"/>
+                  <Data value="32.0"/>
+                  <Data value="67.0"/>
+                  <Data value="128.0"/>
+                  <Data value="98.0"/>
+                  <Data value="0.0"/>
+                  <Data value="96.0"/>
+                  <Data value="150.0"/>
+                  <Data value="0.0"/>
+                  <Data value="73.0"/>
+                  <Data value="190.0"/>
+                  <Data value="106.0"/>
+                  <Data value="0.0"/>
+                  <Data value="100.0"/>
+                  <Data value="88.0"/>
+                  <Data value="146.0"/>
+                  <Data value="71.0"/>
+                  <Data value="113.0"/>
+                </Column>
+                <Column editable="true" title="Japan" type="java.lang.Double">
+                  <Data value="2014.0"/>
+                  <Data value="2456.0"/>
+                  <Data value="2506.0"/>
+                  <Data value="2449.0"/>
+                  <Data value="2483.0"/>
+                  <Data value="2047.0"/>
+                  <Data value="1517.0"/>
+                  <Data value="2158.0"/>
+                  <Data value="2837.0"/>
+                  <Data value="2977.0"/>
+                  <Data value="2904.0"/>
+                  <Data value="2962.0"/>
+                  <Data value="2367.0"/>
+                  <Data value="1672.0"/>
+                  <Data value="2441.0"/>
+                  <Data value="2999.0"/>
+                  <Data value="3199.0"/>
+                  <Data value="2803.0"/>
+                  <Data value="3062.0"/>
+                  <Data value="2455.0"/>
+                  <Data value="1804.0"/>
+                  <Data value="2658.0"/>
+                  <Data value="3275.0"/>
+                  <Data value="3762.0"/>
+                  <Data value="3806.0"/>
+                  <Data value="3892.0"/>
+                  <Data value="2945.0"/>
+                  <Data value="2374.0"/>
+                  <Data value="3629.0"/>
+                  <Data value="3856.0"/>
+                  <Data value="4540.0"/>
+                  <Data value="3257.0"/>
+                  <Data value="3029.0"/>
+                  <Data value="3196.0"/>
+                  <Data value="3332.0"/>
+                  <Data value="4946.0"/>
+                  <Data value="5950.0"/>
+                  <Data value="7563.0"/>
+                  <Data value="7863.0"/>
+                  <Data value="7790.0"/>
+                  <Data value="6081.0"/>
+                  <Data value="4928.0"/>
+                  <Data value="4575.0"/>
+                  <Data value="5819.0"/>
+                  <Data value="6594.0"/>
+                  <Data value="7137.0"/>
+                  <Data value="7071.0"/>
+                  <Data value="5773.0"/>
+                  <Data value="4890.0"/>
+                  <Data value="5384.0"/>
+                  <Data value="5519.0"/>
+                  <Data value="5621.0"/>
+                  <Data value="5045.0"/>
+                  <Data value="4754.0"/>
+                  <Data value="3971.0"/>
+                  <Data value="2785.0"/>
+                  <Data value="3861.0"/>
+                  <Data value="3937.0"/>
+                  <Data value="4162.0"/>
+                  <Data value="3536.0"/>
+                  <Data value="3319.0"/>
+                  <Data value="2667.0"/>
+                  <Data value="1790.0"/>
+                  <Data value="2313.0"/>
+                  <Data value="2631.0"/>
+                  <Data value="2592.0"/>
+                  <Data value="2366.0"/>
+                  <Data value="2270.0"/>
+                  <Data value="1637.0"/>
+                  <Data value="1227.0"/>
+                  <Data value="1558.0"/>
+                  <Data value="1884.0"/>
+                  <Data value="1691.0"/>
+                  <Data value="1316.0"/>
+                  <Data value="1362.0"/>
+                  <Data value="1351.0"/>
+                  <Data value="973.0"/>
+                  <Data value="1308.0"/>
+                  <Data value="1461.0"/>
+                  <Data value="1525.0"/>
+                  <Data value="1297.0"/>
+                  <Data value="1234.0"/>
+                  <Data value="1036.0"/>
+                  <Data value="737.0"/>
+                  <Data value="1103.0"/>
+                  <Data value="904.0"/>
+                  <Data value="1084.0"/>
+                  <Data value="1057.0"/>
+                  <Data value="1220.0"/>
+                  <Data value="997.0"/>
+                  <Data value="688.0"/>
+                  <Data value="922.0"/>
+                  <Data value="1244.0"/>
+                  <Data value="1149.0"/>
+                  <Data value="1129.0"/>
+                  <Data value="412.0"/>
+                  <Data value="1722.0"/>
+                  <Data value="621.0"/>
+                  <Data value="1175.0"/>
+                  <Data value="1259.0"/>
+                  <Data value="1303.0"/>
+                  <Data value="1263.0"/>
+                  <Data value="1335.0"/>
+                  <Data value="975.0"/>
+                  <Data value="713.0"/>
+                  <Data value="1142.0"/>
+                  <Data value="1545.0"/>
+                  <Data value="1460.0"/>
+                  <Data value="1469.0"/>
+                  <Data value="1596.0"/>
+                  <Data value="1106.0"/>
+                  <Data value="786.0"/>
+                  <Data value="1517.0"/>
+                  <Data value="1974.0"/>
+                  <Data value="1911.0"/>
+                  <Data value="1977.0"/>
+                  <Data value="2080.0"/>
+                  <Data value="1783.0"/>
+                  <Data value="1290.0"/>
+                  <Data value="2141.0"/>
+                </Column>
+                <Column editable="true" title="China" type="java.lang.Double">
+                  <Data value="91.0"/>
+                  <Data value="120.0"/>
+                  <Data value="108.0"/>
+                  <Data value="127.0"/>
+                  <Data value="119.0"/>
+                  <Data value="110.0"/>
+                  <Data value="93.0"/>
+                  <Data value="112.0"/>
+                  <Data value="116.0"/>
+                  <Data value="127.0"/>
+                  <Data value="99.0"/>
+                  <Data value="93.0"/>
+                  <Data value="111.0"/>
+                  <Data value="99.0"/>
+                  <Data value="110.0"/>
+                  <Data value="89.0"/>
+                  <Data value="108.0"/>
+                  <Data value="87.0"/>
+                  <Data value="132.0"/>
+                  <Data value="97.0"/>
+                  <Data value="100.0"/>
+                  <Data value="78.0"/>
+                  <Data value="70.0"/>
+                  <Data value="85.0"/>
+                  <Data value="77.0"/>
+                  <Data value="81.0"/>
+                  <Data value="91.0"/>
+                  <Data value="88.0"/>
+                  <Data value="77.0"/>
+                  <Data value="79.0"/>
+                  <Data value="87.0"/>
+                  <Data value="60.0"/>
+                  <Data value="63.0"/>
+                  <Data value="74.0"/>
+                  <Data value="86.0"/>
+                  <Data value="64.0"/>
+                  <Data value="88.0"/>
+                  <Data value="86.0"/>
+                  <Data value="78.0"/>
+                  <Data value="128.0"/>
+                  <Data value="134.0"/>
+                  <Data value="96.0"/>
+                  <Data value="175.0"/>
+                  <Data value="180.0"/>
+                  <Data value="173.0"/>
+                  <Data value="168.0"/>
+                  <Data value="159.0"/>
+                  <Data value="164.0"/>
+                  <Data value="225.0"/>
+                  <Data value="159.0"/>
+                  <Data value="221.0"/>
+                  <Data value="242.0"/>
+                  <Data value="100.0"/>
+                  <Data value="161.0"/>
+                  <Data value="200.0"/>
+                  <Data value="155.0"/>
+                  <Data value="139.0"/>
+                  <Data value="114.0"/>
+                  <Data value="91.0"/>
+                  <Data value="102.0"/>
+                  <Data value="120.0"/>
+                  <Data value="95.0"/>
+                  <Data value="64.0"/>
+                  <Data value="50.0"/>
+                  <Data value="49.0"/>
+                  <Data value="42.0"/>
+                  <Data value="50.0"/>
+                  <Data value="30.0"/>
+                  <Data value="41.0"/>
+                  <Data value="46.0"/>
+                  <Data value="40.0"/>
+                  <Data value="19.0"/>
+                  <Data value="33.0"/>
+                  <Data value="32.0"/>
+                  <Data value="19.0"/>
+                  <Data value="21.0"/>
+                  <Data value="25.0"/>
+                  <Data value="15.0"/>
+                  <Data value="27.0"/>
+                  <Data value="18.0"/>
+                  <Data value="21.0"/>
+                  <Data value="22.0"/>
+                  <Data value="31.0"/>
+                  <Data value="26.0"/>
+                  <Data value="23.0"/>
+                  <Data value="25.0"/>
+                  <Data value="19.0"/>
+                  <Data value="34.0"/>
+                  <Data value="39.0"/>
+                  <Data value="41.0"/>
+                  <Data value="25.0"/>
+                  <Data value="23.0"/>
+                  <Data value="24.0"/>
+                  <Data value="18.0"/>
+                  <Data value="19.0"/>
+                  <Data value="23.0"/>
+                  <Data value="35.0"/>
+                  <Data value="17.0"/>
+                  <Data value="26.0"/>
+                  <Data value="19.0"/>
+                  <Data value="31.0"/>
+                  <Data value="67.0"/>
+                  <Data value="57.0"/>
+                  <Data value="29.0"/>
+                  <Data value="43.0"/>
+                  <Data value="22.0"/>
+                  <Data value="17.0"/>
+                  <Data value="21.0"/>
+                  <Data value="17.0"/>
+                  <Data value="20.0"/>
+                  <Data value="15.0"/>
+                  <Data value="27.0"/>
+                  <Data value="22.0"/>
+                  <Data value="21.0"/>
+                  <Data value="20.0"/>
+                  <Data value="23.0"/>
+                  <Data value="17.0"/>
+                  <Data value="12.0"/>
+                  <Data value="17.0"/>
+                  <Data value="18.0"/>
+                </Column>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_ekle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TABLOYA VER&#x130; EKLE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ekleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_sil">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TABLODAN VER&#x130; S&#x130;L"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_silActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_artor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aritmetik Ortalama"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_artorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_medyan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ortanca(medyan)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_medyanActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_mod">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tepe de&#x11f;er(mod)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_modActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_degisaral&#x131;k">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="De&#x11f;i&#x15f;im Aral&#x131;&#x11f;&#x131;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_degisaral&#x131;kActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_oms">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ortalama Mutlak Sapma"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_omsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_varyans">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Varyans"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_varyansActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_std">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Standart Sapma"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_stdActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_dkat">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="De&#x11f;i&#x15f;im Katsay&#x131;s&#x131;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_dkatActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_ceyac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc7;eyrek A&#xe7;&#x131;kl&#x131;&#x11f;&#x131;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ceyacActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_tittle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kyrgyzstan,Japonya ve &#xc7;in&apos;in 12/01/2020-31/03/2021 tarihleri arasindaki vaka say&#x131;s&#x131; tablosu"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_msg1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_msg2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_msg3">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="txt2">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="########" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="txt1">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="########" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="txt3">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="########" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_ok">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_okActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_boxplot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BOXPLOT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_boxplotActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_dosya">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Verileri Dosyaya Aktar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_dosyaActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

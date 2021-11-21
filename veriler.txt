@@ -1,0 +1,27 @@
+		Kyrgyzstan:
+Aritmetik ortalama: 125.81666666666666
+Medyan: 97.0
+Tepedeger: [0]
+Değişim aralığı: 668
+Ortalama Mutlak Sapma: 91.64055555555548
+Varyans: 15794.03305555555
+Değişim Katsayısı: 0.998868566123935
+Çeyrek Açıklığı: 129.0
+		Japan:
+Aritmetik ortalama: 2690.125
+Medyan: 2291.5
+Tepedeger: [1517]
+Değişim aralığı: 7451
+Ortalama Mutlak Sapma: 1356.5041666666666
+Varyans: 2982336.5927083334
+Değişim Katsayısı: 0.6419568954819357
+Çeyrek Açıklığı: 2122.0
+		China:
+Aritmetik ortalama: 73.4
+Medyan: 65.5
+Tepedeger: [17, 19]
+Değişim aralığı: 230
+Ortalama Mutlak Sapma: 44.11333333333336
+Varyans: 2835.806666666666
+Değişim Katsayısı: 0.7255080735068851
+Çeyrek Açıklığı: 80.5
